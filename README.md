@@ -23,7 +23,7 @@ Alpha_XMLTradeProcessing - Readme
 5) Prepare input files
 - Securities.xml should contain <Securities> / <Security> with <BloombergId> elements.
 - Trade files should be placed under the trades root folder and match the pattern Trades*.xml (or ensure files exist and XmlFileReader can read them).
-- Ensure XML element names/casing match the models (Trade model expects lowercase element names such as "<tradingAccount>", "<transactionCode>", and "<security><code>").
+- Ensure XML element names/casing match the models (Trade model expects lowercase element names such as "tradingAccount", "transactionCode", and "securitycode").
 
 6) Build the solution
 - In Visual Studio: Build -> Build Solution
