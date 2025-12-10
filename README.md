@@ -44,7 +44,7 @@ Alpha_XMLTradeProcessing - Readme
 
 9) Troubleshooting
 - Empty BloombergId in aggregation:
-  - Confirm trade XML mapping: Trade.Security.Code must be populated. The model expects <security><code> in trade XML.
+  - Confirm trade XML mapping: Trade.Security.Code must be populated. The model expects security, code in trade XML.
   - Confirm securities are loaded and BloombergId keys match trade codes. Consider trimming/normalizing strings.
 - ArgumentNullException at dictionary lookup:
   - Ensure SecurityService.LoadSecurities ran before validating trades. IsValidSecurity defends against null/empty keys.
