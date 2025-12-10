@@ -1,5 +1,7 @@
 Alpha_XMLTradeProcessing - Readme
 
+REFER TO DOCUMENTATION.MD FILE IN THE PRIMARY PROJECT FOR COMPLETE DOCUMENTATION ON THE WORKFLOW AND IMPLEMENTATIONS 
+
 1) Prerequisites
 - Windows machine
 - Visual Studio 2017/2019/2022 with .NET Framework 4.7.2 development workload installed
